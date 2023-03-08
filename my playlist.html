@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-signal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="my playlist.css">
+    <link rel="shortcut icon" href="spotify favicon.png">
+    <title>Spotify - The Web Player</title>
+</head>
+
+<body>
+    <div class="w3-sidebar w3-black" style="width:25%">
+       
+        <h3 class="w3-bar-item"> <img src="logo.png" width="131px"></h3>
+        <a id="0" href="home.html" class="w3-bar-item w3-button"><i class="bi bi-house-door" width="16" height="16">
+            </i>Home</a>
+        <a id="0" href="#" class="w3-bar-item w3-button"><i class="bi bi-search"> </i>Search</a>
+        <a id="0" href="#" class="w3-bar-item w3-button"><i class="bi bi-music-note-list"> </i>Your Collection</a>
+    </div>
+
+    <!-- Page Content -->
+    <div style="margin-left:25%">
+        <div class="w3-container w3-signal-black">
+            <div class="btns">
+
+                <i id="0" class="bi bi-person-circle"></i>
+                <li class="nav-item dropdown">
+
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        My Account
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                        <li>
+                            <hr>
+                        <li><a class="dropdown-item" href="#">Logout</a></li>
+                        <li>
+                    </ul>
+                </li>
+            </div>
+        </div>
+
+
+        <section>
+            <div class="cover">
+                <div id="box"><img src="cover 1.png" alt="" width="200px"></div>
+                <div id="box1">
+                    <h6>PLAYLIST</h6>
+                    <h1 id="txt"> My Playlist </h1>
+                </div>
+            </div>
+        </section>
+    
+        <div class="song">
+            <div class="container text-white">
+                <div class="row">
+                    <div class="col text-end">
+                        <strong> # </strong>
+                      </div>
+                  <div class="col text-center">
+                    <strong> Title </strong>
+                  </div>
+               <div class="col text-end">
+                <strong> Duration </strong>
+                  </div>
+                </div>
+            </div>
+        <hr>
+        <div class="songItem">
+            <div class="item">1</div>
+            <div class="item"><img src="https://i.scdn.co/image/ab67616d0000485137f65266754703fd20d29854" alt="" id="img" ></div>
+            <div class="item">Maan Meri Jaan</div>
+            <div class="playPauseButton">
+                <i id="1" class="bi playPauseIcon bi-play-circle-fill"></i>
+            </div>
+            <div class="item" id="songDuration">2:50</div>
+        </div>
+        <div class="songItem">
+            <div class="item">2</div>
+            <div class="item"><img src="https://i.scdn.co/image/ab67616d000048515675e83f707f1d7271e5cf8a" alt="" id="img" ></div>
+            <div class="item">Believer</div>
+            <div class="playPauseButton">
+            <i id="2" class="bi playPauseIcon bi-play-circle-fill"></i>
+        </div>
+            <div class="item" id="songDuration1">3:50</div>
+        </div>
+        <div class="songItem">
+            <div class="item">3</div>
+            <div class="item"><img src="https://i.scdn.co/image/ab67616d0000485192cc21b3b1386ef3c810894d" alt="" id="img" ></div>
+            <div class="item">Garmi</div>
+            <i id="3" class="bi playPauseIcon bi-play-circle-fill"></i>
+            <div class="item" id="songDuration2">4:50</div>
+        </div>
+        <div class="songItem">
+            <div class="item">4</div>
+            <div class="item"><img src="https://i.scdn.co/image/ab67616d000048517d46ff19532fdba734bfd4e0" alt="" id="img" ></div>
+            <div class="item">Jhoome Jo Pathaan</div>
+            <i id="4" class="bi playPauseIcon bi-play-circle-fill"></i>
+            <div class="item" id="songDuration3">4:05</div>
+        </div>
+        <div class="songItem">
+            <div class="item">5</div>
+            <div class="item"><img src="https://i.scdn.co/image/ab67616d00004851852d4ace5ba8cf082b045c38" alt="" id="img" ></div>
+            <div class="item">Desires</div>
+            <i id="5" class="bi playPauseIcon bi-play-circle-fill"></i>
+            <div class="item" id="songDuration4">3:45</div>
+        </div>
+        <div class="songItem">
+            <div class="item">6</div>
+            <div class="item"><img src="https://i.scdn.co/image/ab67616d000048515b74e703d6ffb2ea16860c86" alt="" id="img" ></div>
+            <div class="item">Excuses</div>
+            <i id="6" class="bi playPauseIcon bi-play-circle-fill"></i>
+            <div class="item" id="songDuration5">2:56</div>
+        </div>
+    </div>
+   
+</div>
+
+
+
+    <div class="bottom">
+        <div class="div">
+            <div class="bottomcoverImg">
+              <img src="https://i.scdn.co/image/ab67616d0000485137f65266754703fd20d29854" alt="" id="songImage">
+            </div>
+            <div class="name">
+                <h3 id="songText">Maan Mari Jaan</h3>
+                <hr>
+                <p class="songDesc" id="desc"> <b>Artists: King </b></p>
+            </div>
+            <div class="icon">
+                <i  class="bi bi-shuffle" id="shuffle"></i>
+                <i  class="bi bi-skip-backward-fill" id="previous"></i>
+                <i  class="bi bi-play-circle-fill" id="masterPlay"></i>
+                <i  class="bi bi-skip-forward-fill" id="next"></i>
+                <i  class="bi bi-repeat" id="repeat"></i>
+            </div>
+            <input type="range" name="range" id="range" min="0" value="0" max="100">
+        </div>
+    </div>
+
+
+   <script src="my playlist.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

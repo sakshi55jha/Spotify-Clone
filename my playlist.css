@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@700&display=swap');
+body{
+    background-color: black;
+}
+.w3-sidebar{
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+
+    
+}
+.w3-button{
+    display: flex;
+    font-size: 14px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.bi {
+    font-size: 25px;
+  padding: 5px;
+  color: white;
+  margin: 0px 10px;
+}
+.w3-container{
+    position: sticky;
+    top: 0px;
+}
+.w3-bar-item{
+    margin: 5px;
+}
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: baseline;
+    margin: 10px; 
+}
+.nav-item{
+    list-style-type: none;
+}
+
+
+section{
+    width: 100%;
+    height: 300px;
+    background-color: #1F51FF;
+   
+}
+.cover{
+    display: flex;
+    /* margin: 25px; */
+    width: auto;
+    height: 290px;
+   align-items: center;
+   flex-wrap: wrap;
+}
+#box{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    padding: 20px;
+    padding-top: 50px;
+    overflow: hidden;
+}
+#box1{
+    display: flex;
+    flex-direction: column;
+}
+h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+#txt{
+    font-family: 'Hind', sans-serif;
+    text-align: center;
+    font-size: 80px;
+}
+.song{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(31, 30, 30);
+  padding: 15px;
+}
+.songItem{
+    width: 100%;
+    height: 58px;
+   display: flex;
+   color: white;
+   padding: 1px;
+   align-items: center;
+   justify-content: space-between
+  
+}
+.item{
+   text-align: center;
+   padding: 10px;
+   width: 170px;
+   font-family:   'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#img{
+    overflow: hidden;
+    object-fit: contain;
+    width: 40px;
+    height: 40px;
+}
+
+
+hr{
+    color: white;
+}
+#songText{
+    font-size: 15px;
+}
+
+
+ /* bottom part */
+.bottom{
+    background-color: #2b2a2a;
+    height: 100px;
+    position: sticky;
+    bottom: 0px;
+   
+}
+#range{
+    width: 25vw;
+}
+.bottomcoverImg{
+    height: 80px;
+    width: 80px;
+    border: 1px solid white;
+    position: absolute;
+    left: 11px;
+    display: flex;
+}
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.name{
+    width: 209px;
+    border: none;
+    position: absolute;
+    height: 60px;
+    display: inline-block;
+    left: 100px;
+    height: 77px;
+    color: white;
+    font-family: 'Secular One', sans-serif;
+}
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+    /* your CSS rules here */
+    #range{
+       
+        width: 30%;
+    }
+     #previous{
+        font-size: 20px;
+        padding: 3px;
+    margin: 1px;
+    }
+    #masterPlay{
+        font-size: 20px;
+        padding: 3px;
+    margin: 1px;
+    }
+    #next{
+        font-size: 20px;
+        padding: 3px;
+    margin: 1px;
+    }
+    #repeat{
+        font-size: 20px;
+        padding: 3px;
+    margin: 1px;
+    }
+    #shuffle{
+        font-size: 20px;
+        padding: 3px;
+    margin: 1px;
+    }
+    #songText{
+        font-size: 0.9em;
+    }
+    .songDesc{
+        font-size: 0.8em;
+    }
+    .name{
+        width: auto;
+    }
+
+  }
+  @media screen and (max-width: 599px) {
+    #range{
+      width: 30%;
+   }
+   #repeat{
+       font-size: 25px;
+       padding: 3px;
+   margin: 1px;
+   }
+   #shuffle{
+       font-size: 25px;
+       padding: 3px;
+   margin: 1px;
+   }
+   hr{
+       display: none;
+   }
+   #previous{
+       font-size: 25px;
+       padding: 3px;
+   margin: 1px;
+   }
+   #masterPlay{
+       font-size: 25px;
+       padding: 3px;
+   margin: 1px;
+   }
+   #next{
+       font-size: 25px;
+       padding: 3px;
+   margin: 1px;
+   }
+   .songDesc{
+       display: none;
+   }
+   #songText{
+       font-size: 0.9em;
+     
+   }
+  .icon{
+   margin-top: 10px;
+  } 
+  .name{
+   width: auto;
+  }
+  #box1{
+    display: none;
+  }
+ } 

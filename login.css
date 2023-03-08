@@ -1,0 +1,26 @@
+.container
+{
+    margin:auto;
+    padding: 10px;
+    max-width: 800px; /* set a max-width for the container */
+    box-sizing: border-box;
+ 
+    /* border: 2px solid black; */
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 5px;
+    }
+    img {
+        margin: 5px auto;
+        width: 150px;
+    }
+}
